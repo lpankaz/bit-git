@@ -4,25 +4,25 @@ class Font:
         self.letters = {}
 
 class FontLoader:
-    def loadFont(self, directory):
-        font = Font("fancy")
+	def loadFont(self, directory):
+		font = Font("fancy")
 
-        font.letters['G'] = r'''
-  ___ 
- / __)
-( (_ \
- \___/
-'''
+		font.letters['G'] = r'''
+		___ 
+		/ __)
+		( (_ \
+		\___/
+		'''
 		font.letters['I'] = r'''
-  __  
- (  ) 
-  )(  
- (__) 
-'''
+		__  
+		(  ) 
+		)(  
+		(__) 
+		'''
 		font.letters['T'] = r'''
- ____ 
-(_  _)
-  )(  
- (__) 
-'''
-        return font
+		____ 
+		(_  _)
+		)(  
+		(__) 
+		'''
+		return font
